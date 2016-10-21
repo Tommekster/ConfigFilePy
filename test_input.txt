@@ -1,0 +1,10 @@
+# a comment
+path	/cesta/nekam/k_certu
+
+ #another comment
+
+boolean_value
+
+!negative_boolean_value
+
+rate 90 60 90 # ideal rate

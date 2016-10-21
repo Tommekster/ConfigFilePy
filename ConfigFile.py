@@ -44,7 +44,7 @@ def saveConfigFile(filename,config):
 
 
 if __name__ == '__main__': 
-	cfg = parseConfigFile("/tmp/test")
+	cfg = parseConfigFile("test_input.txt")
 	print(cfg)
-	saveConfigFile("/tmp/test2",cfg)
+	saveConfigFile("test_output.txt",cfg)
 
