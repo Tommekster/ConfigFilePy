@@ -1,5 +1,7 @@
 #! /usr/bin/env python
+
 def parseConfigFile(filename,defaultConfig={}):
+	""" Returns dictionary containing a content of given config-file. """
 	if __debug__:
 		if not type(filename) == str: raise AssertionError
 	if type(defaultConfig) == dict:
@@ -26,6 +28,7 @@ def parseConfigFile(filename,defaultConfig={}):
 	return config
 	
 def saveConfigFile(filename,config):
+	""" Saves configuration into a file. """
 	if __debug__:
 		if not type(filename) == str: raise AssertionError
 		if not type(config) == dict: raise AssertionError
